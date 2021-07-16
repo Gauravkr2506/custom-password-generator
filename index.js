@@ -38,7 +38,7 @@ function generate(options, pool) {
 
 // Default Options
 const defaultOptions = {
-  length: 10,
+  length: 8,
   numbers: true,
   symbols: true,
   uppercase: true,
