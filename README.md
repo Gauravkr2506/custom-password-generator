@@ -1,6 +1,6 @@
 # custom-password-generator
 
-> Custom Password Generate is a library to generate custom password based on user requirements.
+> Custom Password Generator is a library to generate custom password based on user requirements.
 
 ## Install
 
@@ -37,13 +37,14 @@ console.log(password);
 
 following are the default value in options, if your requirement matches with defaults then you don't need to pass options obj
 
-| Name                     | Description                                                          | Default Value |
-| ------------------------ | -------------------------------------------------------------------- | ------------- |
-| length                   | Integer, length of password.                                         | 8             |
-| numbers\*                | Boolean, add numbers in password.                                    | true          |
-| symbols\*                | Boolean, add symbols in password.                                    | true          |
-| lowercase\*              | Boolean, add lowercase characters in password                        | true          |
-| uppercase\*              | Boolean, add uppercase characters in password                        | false         |
-| excludeSimilarCharacters | Boolean, exclude similar chars, like 'o', 'O', '0' etc.              | false         |
-| exclude                  | String, characters to be excluded from password.                     | ''            |
-| strict                   | Boolean, password must consist at least one character from each pool | false         |
+| Name                     | Description                                             | Default Value |
+| ------------------------ | ------------------------------------------------------- | ------------- |
+| length                   | Integer, length of password.                            | 8             |
+| numbers\*                | Boolean, add numbers in password.                       | true          |
+| symbols\*                | Boolean, add symbols in password.                       | true          |
+| lowercase\*              | Boolean, add lowercase characters in password           | true          |
+| uppercase\*              | Boolean, add uppercase characters in password           | false         |
+| excludeSimilarCharacters | Boolean, exclude similar chars, like 'o', 'O', '0' etc. | false         |
+| exclude                  | String, characters to be excluded from password.        | ''            |
+
+\*It is required to set at least one option to true.
