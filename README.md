@@ -15,7 +15,8 @@ $ npm install custom-password-generator-latest --save
 Generate a strong password based on user requirements
 
 ```javascript
-var generator = require("custom-password-generator-latest");
+import getPassword from "custom-password-generator-latest";
+
 const options = {
   length: 12,
   numbers: true,
@@ -27,7 +28,7 @@ const options = {
   exclude: "(){}[]<>",
 };
 
-var password = generator.generate(options);
+var password = getPassword(options);
 
 // '1sXuE@3!dwyM'
 console.log(password);
@@ -45,6 +46,6 @@ following are the default value in options, if your requirement matches with def
 | lowercase\*              | Boolean, add lowercase characters in password           | true          |
 | uppercase\*              | Boolean, add uppercase characters in password           | false         |
 | excludeSimilarCharacters | Boolean, exclude similar chars, like 'o', 'O', '0' etc. | false         |
-| exclude                  | String, characters to be excluded from password.        | ''            |
+| exclude                  | String, characters to be excluded from password         | ""            |
 
 \*It is required to set at least one option to true.
