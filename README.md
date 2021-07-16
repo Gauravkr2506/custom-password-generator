@@ -1,11 +1,11 @@
-# custom-password-generator
+# custom-password-generator-latest
 
 > Custom Password Generator is a library to generate custom password based on user requirements.
 
 ## Install
 
 ```bash
-$ npm install custom-password-generator --save
+$ npm install custom-password-generator-latest --save
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ $ npm install custom-password-generator --save
 Generate a strong password based on user requirements
 
 ```javascript
-var generator = require("custom-password-generator");
+var generator = require("custom-password-generator-latest");
 const options = {
   length: 12,
   numbers: true,

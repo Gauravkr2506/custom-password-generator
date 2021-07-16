@@ -1,12 +1,22 @@
 {
-  "name": "custom-password-generator",
-  "version": "1.0.0",
-  "description": "",
+  "name": "custom-password-generator-latest",
+  "version": "1.0.1",
+  "description": "library to generate custom password based on user requirements",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Gauravkr2506/custom-password-generator"
+  },
+  "keywords": [
+    "custom",
+    "password",
+    "generator",
+    "generate",
+    "unique"
+  ],
   "author": "Gaurav",
   "license": "ISC"
 }
